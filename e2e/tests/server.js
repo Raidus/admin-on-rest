@@ -11,7 +11,7 @@ before(
             server.use(
                 '/',
                 express.static(
-                    path.join(__dirname, '../../packages/ra-example')
+                    path.join(__dirname, '../../packages/example-simple')
                 )
             );
 
